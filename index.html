@@ -1,7 +1,20 @@
-<html>
+---
+layout: default
+title: Grinner
+---
 
-<body>
-Hello everyone
-</body>
+<div id="home">
+  <h1>Blog Posts</h1>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
 
-</html>
+  <h1>Projects</h1>
+  <ul class="posts">
+    <li><a href="https://github.com/grinner/Polonator">Polonator:</a> Open Source DNA Sequencing machine</li>
+    <li><a href="https://github.com/grinner/PolonatorProcessorSim">PolonatorProcessorSim:</a> Simulator for image ingestion of the above</li>
+    <li><a href="https://github.com/sdouglas/cadnano2">CADnano:</a> DNA Origami Design Software</li>
+  </ul>
+</div>
