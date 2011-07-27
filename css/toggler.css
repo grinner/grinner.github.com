@@ -7,7 +7,7 @@ html {
 	padding: 0;
 }
 .container {
-	width: 700px;
+	width: 500px;
 	margin: 0 auto;
 }
 
@@ -27,9 +27,9 @@ div.trigger a {
 	text-decoration: none;
 	display: block;
 }
-/*div.trigger a:hover {
-    color: #ccc;
-}*/
+div.trigger a:hover {
+	color: #ccc;
+}
 div.active {background-position: left bottom;}
 .toggle_container {
 	margin: 0 0 5px;
