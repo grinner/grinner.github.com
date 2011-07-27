@@ -14,7 +14,6 @@ html {
 div.trigger {
 	padding: 0 0 0 50px;
     margin: 0 0 5px 0;
-	margin: 0 auto;
     background: url(/images/toggler_button.png) no-repeat;
 	height: 46px;
 	line-height: 46px;
@@ -29,9 +28,11 @@ div.trigger a {
 	display: block;
 }
 div.trigger a:hover {
-	color: #ccc;
+	color: #bbb;
 }
+
 div.active {background-position: left bottom;}
+
 .toggle_container {
     padding: 0 0 0 50px;
 	margin: 0 0 5px;
