@@ -28,7 +28,7 @@ div.trigger a {
 	display: block;
 }
 div.trigger a:hover {
-	color: #bbb;
+	color: #444;
 }
 
 div.active {background-position: left bottom;}
