@@ -30,7 +30,7 @@ div.trigger a {
 div.trigger a:hover {
 	color: #ccc;
 }
-/*div.active {background-position: left bottom;}*/
+div.active {background-position: left bottom;}
 .toggle_container {
 	margin: 0 0 5px;
 	padding: 0;
