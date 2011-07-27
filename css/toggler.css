@@ -28,15 +28,13 @@ div.trigger a {
 	display: block;
 }
 div.trigger a:hover {
-	color: #444;
+	color: #bbb;
 }
 
 div.active {background-position: left bottom;}
 
 .toggle_container {
-    padding: 0 0 0 50px;
 	margin: 0 0 5px;
-	margin: 0 auto;
 	padding: 0;
 /*  border-top: 1px solid #d6d6d6;*/
 /*  background: #f0f0f0 url(toggle_block_stretch.gif) repeat-y left top;*/
