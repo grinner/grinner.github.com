@@ -7,7 +7,7 @@ html {
 	padding: 0;
 }
 .container {
-	width: 500px;
+	width: 40em;
 	margin: 0 auto;
 }
 
@@ -38,7 +38,7 @@ div.active {background-position: left bottom;}
 /*  background: #f0f0f0 url(toggle_block_stretch.gif) repeat-y left top;*/
 	overflow: hidden;
 	font-size: 1.2em;
-	width: 500px;
+	width: 40em;
 	clear: both;
 }
 .toggle_container .block {
