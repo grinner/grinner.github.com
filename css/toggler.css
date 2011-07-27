@@ -3,7 +3,7 @@
 	margin: 0 auto;
 }
 
-h2.trigger {
+div.trigger {
 	padding: 0 0 0 50px;
 	margin: 0 0 5px 0;
 /*  background: url(h2_trigger_a.gif) no-repeat;*/
@@ -14,15 +14,15 @@ h2.trigger {
 	font-weight: normal;
 	float: left;
 }
-h2.trigger a {
+div.trigger a {
 	color: #fff;
 	text-decoration: none;
 	display: block;
 }
-h2.trigger a:hover {
+div.trigger a:hover {
 	color: #ccc;
 }
-h2.active {background-position: left bottom;}
+div.active {background-position: left bottom;}
 .toggle_container {
 	margin: 0 0 5px;
 	padding: 0;
