@@ -1,3 +1,11 @@
+html {
+	overflow-Y: scroll;
+}
+*, * focus {
+	outline: none;
+	margin: 0;
+	padding: 0;
+}
 .container {
 	width: 500px;
 	margin: 0 auto;
