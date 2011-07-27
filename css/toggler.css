@@ -15,7 +15,7 @@ div.trigger {
 	padding: 0 0 0 50px;
 	/*margin: 0 0 5px 0;*/
 	margin: 0 auto;
-/*  background: url(h2_trigger_a.gif) no-repeat;*/
+    background: url(/images/toggler_button.png) no-repeat;
 	height: 46px;
 	line-height: 46px;
 	width: 640px;
