@@ -22,12 +22,12 @@ h2 {
 	font-weight: normal;
 	float: left;
 }
-h2 {
+h2 a {
 	color: #fff;
 	text-decoration: none;
 	display: block;
 }
-h2:hover {
+h2 a:hover {
 	color: #444;
 }
 
